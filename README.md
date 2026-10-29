@@ -1,12 +1,12 @@
-# :musical_note: Music app
+# Music app
 
 This project is a backend API for a music application, utilizing MongoDB for data storage and Express.js with TypeScript for the server-side logic. It allows for managing artists, albums, and tracks, including user authentication and authorization.
 
-## 🎼 About the Project
+## About the Project
 
 This project provides a robust backend API for a music application. It allows users to manage artists, albums, and tracks, with features for publishing and unpublishing content. The API supports user authentication via traditional username/password or Google OAuth, and implements role-based access control.
 
-## ✨ Features
+## Features
 
 - **Artist Management:** Create, view, update, and delete artists. Admins can publish/unpublish artists.
 - **Album Management:** Create, view, update, and delete albums. Admins can publish/unpublish albums. Albums can only be published if their associated artist is published.
@@ -17,7 +17,7 @@ This project provides a robust backend API for a music application. It allows us
 - **Image Uploads:** Supports uploading images for artists and albums.
 - **Data Seeding:** Includes a script to populate the database with initial data.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend:** TypeScript, Node.js, Express.js
 - **Database:** MongoDB (with Mongoose)
@@ -25,13 +25,13 @@ This project provides a robust backend API for a music application. It allows us
 - **Authentication:** JWT, Google OAuth
 - **Other:** Multer (for file uploads), Argon2 (for password hashing), Dotenv (for environment variables)
 
-## 📋 Installation
+## Installation
 
 To get this project up and running locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/novikovaula007-rgb/music-app.git
+    git clone [https://github.com/novikovaula007-rgb/music-app.git](https://github.com/novikovaula007-rgb/music-app.git)
     cd music-app
     ```
 
@@ -80,7 +80,7 @@ To get this project up and running locally, follow these steps:
     ```
     The frontend application will usually be accessible at `http://localhost:5173`.
 
-## ▶️ Usage
+## Usage
 
 This project is a full-stack music application where the backend API (`api` directory) serves data to a React frontend (`frontend` directory).
 
@@ -99,7 +99,7 @@ This project is a full-stack music application where the backend API (`api` dire
 -   **Track Playback & History:** Listen to tracks and view your listening history.
 -   **User Accounts:** Register, log in, and log out.
 
-## 📚 API Reference
+## API Reference
 
 ### Authentication Routes (`/users`)
 
